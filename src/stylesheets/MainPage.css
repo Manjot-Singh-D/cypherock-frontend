@@ -1,0 +1,270 @@
+.mainPage{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0B1019;
+}
+.mainPage .topBar{
+    border: 2px solid #161D22;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+    background: #0B1019;
+    width: 100%;
+    height: 3rem;
+}
+.mainPage .topBar .img{
+    margin-left: 3rem;
+}
+.mainPage .topBar .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+.mainPage .topBar .right svg{
+    padding: 0.3rem;
+    color: #EFF1F0;
+    transform: scale(0.9);
+}
+.mainPage .mainContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.mainPage .mainContent .left{
+    width: 300px;
+    background-color: #161D22;
+    padding: 2rem 0rem 2rem 2rem;
+    position: fixed;
+    height: 100%;
+    margin-top: 4rem;
+}
+.mainPage .mainContent .left .iconText{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #EFF1F0;
+}
+.mainPage .mainContent .left .goldColor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    color: #C68D4F;
+
+}
+.mainPage .mainContent .left .goldColor p{
+    color: #E2C19D;
+}
+.mainPage .mainContent .left .iconText p{
+    padding-left: 0.8rem;
+}
+.mainPage .mainContent .left .wallet{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.mainPage .mainContent .left .wallet .walletWrapper{
+    padding-left: 2rem;
+}
+.mainPage .mainContent .left .iconText .walletList{
+    color: #C68D4F;
+    padding-left: 0.5rem;
+}
+.mainPage .mainContent .left .iconText .walletWrapper .addWallet{
+    border: 1px dotted #606160;
+    border-radius: 10rem;
+    padding: 5px 8px;
+    color: #606160;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.mainPage .mainContent .left .button{
+    background-color: #785A3D;
+    width: fit-content;
+    padding: 0.5rem 1.2rem;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    color: #F4CEA2;
+    border-radius: 0.5rem;
+}
+.mainPage .mainContent .right{
+    color: #EFF1F0;
+    width: 100%;
+    padding: 2rem 3rem;
+    margin-left: 330px;
+    padding-top: 6rem;
+}
+.mainPage .mainContent .right .first{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #E2C19D;
+}
+.mainPage .mainContent .right .first .iconText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2rem;
+}
+.mainPage .mainContent .right .first .iconText p{
+    margin-left: 5px;
+}
+.mainPage .mainContent .right .first .iconText svg{
+    background-color: transparent;
+    color: #8484F1;
+    margin-right: -5px;
+}
+.mainPage .mainContent .right .first svg{
+    margin: 0rem 1rem;
+    background-color: #1A202A;
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+.mainPage .mainContent .right .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.mainPage .mainContent .right .second h2{
+    color: #C68D4F;
+    font-weight: 700;
+}
+.mainPage .mainContent .right .second .addCoinBtn{
+    margin: 0rem 1rem;
+    background-color: #1A202A;
+    padding: 0.6rem 0.8rem;
+    border-radius: 10px;
+}
+.mainPage .mainContent .right .third{
+    border: 1px solid #161D22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+}
+.mainPage .mainContent .right .third p{
+    color: #E2C19D;
+    font-size: 14px;
+}
+.mainPage .mainContent .right .third .filterBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root{
+    width: 250px !important;
+    right: 100px !important;
+    background-color: #262A2E !important;
+    color: #BFB4A9 !important;
+    font-weight: 700 !important;
+    padding: 1rem;
+}
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root .MuiPaper-root .Mui-selected{
+    background-color: transparent !important;
+    font-weight: 900 !important;
+}
+.MuiSelect-outlined{
+    border: none !important;
+    outline: none !important;
+}
+.mainPage .mainContent .right .third .filterBtn svg{
+    color: #C68D4F;
+}
+.mainPage .mainContent .right .coinListWrapper table tbody tr{
+    background-color: #161D22;
+}
+.mainPage .mainContent .right .coinListWrapper table tbody tr td{
+    padding: 1rem;
+}
+.mainPage .mainContent .right .coinListWrapper table tbody tr td .iconText{
+    display: flex;
+    align-items: center;
+}
+.mainPage .mainContent .right .coinListWrapper table tbody tr td .iconText p{
+    margin-left: 10px;
+}
+.blueColor{
+    color: #8484F1;
+}
+.mainPage .mainContent .right .coinListWrapper table tbody tr td .goldColor{
+    color: #C68D4F;
+}
+.mainPage .mainContent .right .coinListWrapper table tr td img{
+    height: 30px;
+    width: 30px;
+}
+.mainPage .mainContent .right .coinListWrapper table tr td svg{
+    transform: scale(0.9);
+}
+.mainPage .mainContent .right .coinListWrapper table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 2rem;
+}
+
+#demo-simple-select{
+    color: #B1A79B !important;
+}
+
+@media screen and (max-width:970px){
+    .mainPage .mainContent .left{
+        width: 150px;
+        background-color: #161D22;
+        padding: 1.2rem 0rem 1.2rem 1.2rem;
+        font-size: 90%;
+    }
+    .mainPage .mainContent .right{
+        padding: 1.2rem 2rem;
+        margin-left: 150px;
+        margin-top: 85px;
+    }
+}
+@media screen and (max-width:760px){
+    .mainPage .mainContent .left{
+        width: 130px;
+        background-color: #161D22;
+        padding: 1.2rem 0rem 1.2rem 1.2rem;
+        font-size: 80%;
+    }
+    .mainPage .mainContent .right{
+        padding: 1.2rem 2rem;
+        margin-left: 110px;
+        font-size: 90%;
+        transform: scale(0.8);
+        margin-top: 0%;
+    }
+}
+@media screen and (max-width:630px){
+    .mainPage .mainContent .left{
+        width: 100px;
+        background-color: #161D22;
+        padding: 0.9rem 0rem 0.9rem 0.9rem;
+        font-size: 80%;
+    }
+    .mainPage .mainContent .left *{
+        transform: scale(0.9);
+    }
+    .mainPage .mainContent .right{
+        padding: 1.2rem 2rem;
+        margin-left: 30px;
+        font-size: 90%;
+        transform: scale(0.7);
+        margin-top: -60px;
+    }
+}

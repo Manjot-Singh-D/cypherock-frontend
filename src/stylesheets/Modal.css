@@ -1,0 +1,124 @@
+.modalContainer{
+    position: absolute;
+}
+.MuiPaper-root{
+    max-width: 1000px !important;
+    width: 800px;
+    background-color: #131619 !important;
+    color: #ffffff !important;
+}
+.MuiStepLabel-label{
+    color: #A2A1A1 !important;
+}
+.Mui-completed{
+    color: #C68D4F !important;
+}
+.Mui-active{
+    color: #C68D4F !important;
+    font-weight: 600 !important;
+}
+#customized-dialog-title{
+    text-align: center;
+}
+.MuiCircularProgress-root{
+    width: 25px !important;
+    height: 25px !important;
+}
+.modalBtn{
+    width: 100px;
+    height: 30px;
+}
+.dialogContent{
+    width: 70%;
+}
+.dialogContent .dialogMainContent .keyContainer{
+    padding: 1.2rem 1.5rem;
+    color: #C68D4F;
+    background-color: #1D1E22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: fill-available;
+}
+
+.dialogContent .dialogMainContent .keyContainer p{
+    color: #E7C49F;
+    background-color: #323538;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+}
+.MuiDialogContent-root {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dialogContent .dialogMainContent .iconTextContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: fill-available;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1D1E22;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0rem;
+    border-radius: 10px;
+}
+.dialogContent .dialogMainContent .iconTextContainer .iconText, .dialogContent .dialogMainContent .iconText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    color: #8b8b91;
+}
+.blueColor{
+    color: #3A3DBF !important;
+}
+.dialogContent .dialogMainContent .verifyBtn{
+    border: 1px solid #3A3DBF;
+    padding: 0.5rem 1.2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.dialogContent .dialogMainContent .iconTextContainer .iconText p{
+    width: fit-content;
+    margin: 0px;
+    margin-left: 1rem;
+}
+.dialogContent .dialogMainContent .iconTextContainer .iconText .activeText{
+    color: #A5A8D6;
+    font-weight: 700;
+}
+.tickIcon{
+    color:#919191 !important;
+}
+.modalActionBtn{
+    padding: 0.5rem 0.8rem;
+    margin: 1.2rem;
+    margin-right: 30px;
+}
+.modalActionBtn:hover{
+    text-decoration: none;
+}
+.modalActionBtn .activeBtn{
+    background-color: #C68D4F;
+    color: #ffffff;
+}
+.modalActionBtn .inactiveBtn{
+    color: #606160;
+    background-color: transparent;
+    border:1px solid #606160
+}
+
+.rightArrow{
+    color: #E7C49F;
+    transform: scale(0.8);
+}
+
